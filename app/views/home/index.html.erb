@@ -1,7 +1,8 @@
-<%= link_to 'Strona główna', controller: 'home' %><br>
-<%= link_to 'Strona główna', root_path %><br>
-<%= link_to 'O mnie', home_about_path %><br>
-<h1>Witaj w mojej aplikacji</h1>
-<p>Wrzucaj swoje piny</p>
+<div class="jumbotron">
+  <h1 class="display-4">Witaj w mojej aplikacji</h1>
+  <p class="lead">Wrzucaj swoje piny</p>
+  <hr class="my-4">
+  <%= link_to 'O mnie', home_about_path, class: 'btn btn-secondary btn-lg' %>
+  <%= link_to 'Strona główna', root_path, class: 'btn btn-primary' %>
 
-
+</div>
